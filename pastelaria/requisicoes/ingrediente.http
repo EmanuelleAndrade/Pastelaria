@@ -1,0 +1,32 @@
+GET HTTP://localhost:8081/api/ingredientes
+###
+
+GET HTTP://localhost:8081/api/ingredientes/1
+###
+
+POST HTTP://localhost:8081/api/ingredientes 
+Content-Type: application/json
+
+{
+    "descricao": "Queijo Mussarela",
+    "medida": "GRAMAS",
+    "dataValidade": "2023-12-31T00:00:00",
+    "valor": 15.0,
+    "observacao": "Queijo presidente."
+}
+
+###
+PUT HTTP://localhost:8081/api/ingredientes/2
+Content-Type: application/json
+
+{
+    "descricao": "Queijo Minas Frescal",
+    "medida": "UNIDADE",
+    "dataValidade": "2023-12-31T00:00:00",
+    "valor": 35.0,
+    "observacao": "Queijo presidente. Alterado"
+}
+
+###
+
+DELETE  HTTP://localhost:8081/api/ingredientes/1

@@ -1,0 +1,16 @@
+GET HTTP://localhost:8081/api/tipos
+###
+
+GET HTTP://localhost:8081/api/tipos/1
+
+###
+POST HTTP://localhost:8081/api/tipos
+Content-Type: application/json
+
+{
+    "tamanho": "Grandao",
+    "valor": 56.0,
+    "pastel": {
+        "id": 2
+    }
+}

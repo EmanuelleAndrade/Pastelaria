@@ -1,0 +1,20 @@
+API é composta por algumas camadas:
+
+1° Controller
+2° Service
+3° Repository (ou DAO - Data Access Object)
+4° Model
+
+
+Objetivo: Criar um CRUD  de Ingredientes.
+Id, Descricao, observacao, dataDeValidade, valor, UnidadeMedida
+
+Ordem cronologia para criar uma api de maneira mais eficiente seria assim:
+
+1° Model OK
+2° Repository OK
+3° Service OK
+4° Controller OK
+
+
+Modelo de erro (titulo, mensagem, status)

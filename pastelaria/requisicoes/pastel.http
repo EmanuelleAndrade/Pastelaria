@@ -1,0 +1,13 @@
+GET HTTP://localhost:8081/api/pastels
+
+###
+GET HTTP://localhost:8081/api/pastels/1
+
+###
+
+POST HTTP://localhost:8081/api/pastels
+Content-Type: application/json
+
+{
+    "descricao": "Romeu e Julieta"
+}
